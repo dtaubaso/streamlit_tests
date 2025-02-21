@@ -88,7 +88,7 @@ with st.expander("Ver argumentos"):
 
 video_url = st.text_input("Ingrese la url del video")
 
-with st.expander("Video con intrucciones")
+with st.expander("Video con intrucciones"):
     if st.button("Ver video"):
         if video_url:
             try:
